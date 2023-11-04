@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: 'https://api.magicthegathering.io/v1/',
+  baseURL: 'https://www.scorebat.com/video-api/v3/feed/?token=[YOUR_API_TOKEN]',
 })
 
 const useApi = () => {
